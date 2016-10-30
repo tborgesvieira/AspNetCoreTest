@@ -15,7 +15,7 @@ namespace AspNetCore.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Aqui vai a descrição do que é sua aplicação!";
 
             return View();
         }
